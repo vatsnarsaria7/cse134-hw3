@@ -1,0 +1,7 @@
+highlight-box {
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 4px;
+}
