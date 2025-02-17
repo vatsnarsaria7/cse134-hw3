@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Education of Vats Narsaria">
     <title>Education - Vats Narsaria</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Vats Narsaria's Portfolio</h1>
+        <h1>My Education Background</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="education.html">Education</a></li>
                 <li><a href="experience.html">Experience</a></li>
-                <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <hr>
-    <main>
+
+    <main class="education-page">
         <section>
-            <h2><span style="color:blue">University of California San Diego</span></h2>
+            <h2><span style="color:var(--primary-color)">University of California San Diego</span></h2>
             <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
             <p><strong>Expected Graduation:</strong> June 2026</p>
             <section>
@@ -39,7 +40,7 @@
                     progress = (8 / 12) * 280; // Junior Winter: 8/12 quarters complete
 
                 ctx.fillStyle = "#ddd"; ctx.fillRect(10, 5, 280, 20); // Background bar
-                ctx.fillStyle = "blue"; ctx.fillRect(10, 5, progress, 20); // Progress bar
+                ctx.fillStyle = "orange"; ctx.fillRect(10, 5, progress, 20); // Progress bar
                 ctx.fillStyle = "black"; ctx.font = "14px Arial";
                 ctx.fillText(Math.round((progress / 280) * 100) + "% Complete", 110, 20);
             </script>
@@ -103,10 +104,11 @@
             <p>For a full academic transcript, <a href="assets/transcriptFall24.pdf" target="_blank">click here</a>.</p>
         </section>
 
-        <footer>
-            <p>Vats Narsaria | <a href="contact.html"> Contact Me</a></p>
-        </footer>
     </main>
+
+    <footer>
+        <p>Vats Narsaria | <a href="contact.html"> Contact Me</a></p>
+    </footer>
 </body>
 
 </html>
