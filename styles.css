@@ -349,7 +349,6 @@ search button:hover {
 
 /*============Education Page=============*/
 
-/* ======= EDUCATION PAGE STYLES ======= */
 .education-page section {
     background: var(--secondary-color, #FFF2D7);
     padding: 1.5rem;
@@ -381,7 +380,7 @@ search button:hover {
     color: color-mix(in srgb, var(--accent-color, #8B1E3F) 80%, black);
 }
 
-/* ======= TABLE STYLES ======= */
+/* ======= table styling ======= */
 .education-page table {
     width: 100%;
     border-collapse: collapse;
